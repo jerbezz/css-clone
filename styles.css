@@ -1,0 +1,175 @@
+body {
+  background-image: url(images/bg.jpg);
+  font-family: 'Raleway', sans-serif; 
+  background-attachment: fixed;
+   
+}
+
+header {
+    width: 100%;
+    height: 275px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.header-top{
+    color: rgba(230, 168, 86, 0.952);
+    font-size: 30px;
+    font-weight: 800;
+}
+ 
+.header-bottom{
+    font-size: 80px;
+    font-weight: 100;
+
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(61, 34, 15, 0.829);
+    display: flex;
+     justify-content: center;
+
+}
+
+.nav-list{
+    color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.nav-list :nth-child(1){
+    color:rgba(230, 168, 86, 0.952);
+}
+
+li {
+    cursor: pointer;
+}
+
+.main-middle{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.coffee-woman {
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    right: 300px;
+    top: 100px
+
+}
+
+.white-box {
+    background: rgba(248, 248, 243, 0.842);
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top:150px;
+    right: 950px;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.first{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.second{
+    text-align: center;
+    font-size: 40px;
+    ;
+    
+}
+
+.third{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+
+button {
+    background: #e6a756;
+    position: relative;
+    top: 105px;
+    left: 180px;
+    height: 70px;
+    width: 150px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.main-bottom{
+    height: 550px;
+    
+
+}
+
+.orange-box{
+    height: 450px;
+    background: rgba(230, 168, 86, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom-white-box{
+    height: 300px;
+    background: rgba(248, 248, 243, 0.842);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid rgba(230, 168, 86, 0.952);
+    box-shadow: 0 0 0 5px rgba(248, 248,243,0.842);
+    border-radius: 5px;
+    
+}
+
+.uno{
+    text-align: center;
+    font-weight: 900;
+}
+
+.dos{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100
+
+}
+
+.tres{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 10px;
+
+}
+
+.footer {
+    height: 100px;
+    background: rgba(61, 34, 15, 0.904);
+    text-align: center;
+    color: rgba(248, 248, 243, 0.842);
+    display: flex;
+    align-items:  center;
+    justify-content: center
+    
+
+}
